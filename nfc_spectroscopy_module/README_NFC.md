@@ -44,3 +44,11 @@ If you wish to use the graphical real-time dashboard with the state machine (`da
 ```bash
 pip install matplotlib
 ```
+
+### Machine Learning Dependencies
+
+If you wish to use the Machine Learning pipeline in the `ml/` directory, please install the data science dependencies:
+
+```bash
+pip install -r ml/requirements_ml.txt
+```
