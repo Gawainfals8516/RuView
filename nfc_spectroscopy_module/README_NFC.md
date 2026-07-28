@@ -36,3 +36,11 @@ To start logging data, connect the ESP32 to your PC and run the script with your
 python nfc_serial_analyzer.py /dev/ttyUSB0
 ```
 (Replace `/dev/ttyUSB0` with the appropriate COM port for your system, e.g., `COM3` on Windows).
+
+### Real-Time Dashboard Dependencies
+
+If you wish to use the graphical real-time dashboard with the state machine (`dashboard_nfc.py`), you must install `matplotlib`:
+
+```bash
+pip install matplotlib
+```
